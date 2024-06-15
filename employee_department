@@ -9,5 +9,5 @@ INSERT INTO departments (department_id, department_name) VALUES
 (26, 'Finance'),
 (27, 'Engineering'),
 (28, 'Marketing'),
-(29, 'Sales');
+(29, 'Sales'),
 (30, 'Healthcare');
