@@ -1,4 +1,4 @@
-CREATE TABLE salary (
+CREATE TABLE employee_salary (
   employee_id INT,
   salary DECIMAL(10, 2) NOT NULL,
   from_date DATE NOT NULL,
