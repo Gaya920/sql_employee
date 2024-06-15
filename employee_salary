@@ -1,0 +1,23 @@
+CREATE TABLE salaries (
+  employee_id INT,
+  salary DECIMAL(10, 2) NOT NULL,
+  from_date DATE NOT NULL,
+  to_date DATE,
+  PRIMARY KEY (employee_id, from_date),
+  FOREIGN KEY (employee_id) REFERENCES employees(employee_id)
+);
+
+
+INSERT INTO salaries (employee_id, salary, from_date, to_date) VALUES
+(1, 75000, '2009-09-25', NULL),
+(2, 70000, '2002-02-12', NULL),
+(3, 50000, '2020-03-04', NULL),
+(4, 25000, '2024-03-27', NULL),
+(5, 50000, '2022-08-28', NULL),
+(6, 60000, '2007-07-30', NULL),
+(7, 55000, '2018-12-01', NULL),
+(8, 90000, '2020-11-11', NULL),
+(9, 70000, '2015-07-26', NULL),
+(10, 20000, '2019-03-25', NULL),
+(11, 57000, '2023-06-14', NULL),
+(12, 65000, '2016-07-27', NULL);
