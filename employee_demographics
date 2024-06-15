@@ -1,8 +1,3 @@
-CREATE DATABASE 'sql_employee';
-USE 'sql_employee';
-
-
-
 CREATE TABLE employee_demographics (
   employee_id INT PRIMARY KEY,
   first_name VARCHAR(50) NOT NULL,
